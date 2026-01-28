@@ -6,7 +6,7 @@
 
 В вопросе копирования аудионосителей важно всё. Правильно скопировать, правильно распаковать, правильно проверить, и правильно записать.
 
-Данный репозиторий создан мной в помощь любителям музыки. В первую очередь, пользователям Linux, для самых популярных дистрибутивов которого собраны установочные пакеты. Но не забыты пользователи и других ОС. 
+Данный репозиторий создан в помощь любителям музыки. В первую очередь, пользователям самых популярных дистрибутивов Linux и MacOS, для которых мной были собраны установочные пакеты, и написан мануал. Windows версия скомпилирована автором исходного кода.
 
 О трудностях проверки контрольной суммы аудиоданных можно почитать [здесь](https://rutracker.org/forum/viewtopic.php?t=357895).
 
@@ -150,7 +150,7 @@ wavcrc32 filename.wav
 
 **BakLAN, siro. и DrStandBy** - замечания, предложения и тестирование Windows версий.
 
-**Konstantin Kuney** - Компиляция программы и сборка пакетов для Linux, создание мануала, создание этого репозитория и описания.
+**Konstantin Kuney** - Компиляция программы и сборка пакетов для Linux и MacOS, создание мануала, создание этого GitHub репозитория и описания.
 
 ## Дополнительная информация:
 -----------------------------
@@ -173,7 +173,7 @@ wavcrc32 filename.wav
 
 When copying audio media, everything is important. Copy it correctly, unpack it correctly, verify it correctly, and burn it correctly.
 
-I created this repository to help music lovers. Primarily, it's for Linux users, for whom installation packages have been compiled for the most popular distributions. But users of other OS haven't been forgotten either.
+This repository was created to help music lovers. Primarily, it's for users of the most popular Linux distributions and MacOS, for which I've compiled installation packages and written a manual. The Windows version is compiled by the source code author.
 
 You can read about the difficulties of verifying audio data checksums [here](https://rutracker.org/forum/viewtopic.php?t=357895).
 
@@ -315,9 +315,9 @@ wavcrc32 filename.wav
 
 **dmvn \]DichlofoS\[ Systems** - **Author**. Making C++ source code, compiling console and GUI versions for Windows. Publishing and discussing on the forum.
 
-**BakLAN, siro. и DrStandBy** - comments, suggestions and testing of Windows versions.
+**BakLAN, siro. and DrStandBy** - comments, suggestions and testing of Windows versions.
 
-**Konstantin Kuney** - Compiling the program and building packages for Linux, creating a manual, creating this repository and description.
+**Konstantin Kuney** - Compiling the program and building packages for Linux and MacOS, creating a manual, creating this GitHub repository and description.
 
 ## Additional information:
 --------------------------

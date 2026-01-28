@@ -1,0 +1,3 @@
+79dcb253be537f15ca4b00d69d02ce17  wavcrc32-0.22.pkg
+a0a08888cf3e59a898eb9cb4837e4eed  wavcrc32.1
+d77b9b09ffd6dce0f5f97a30b56ef1ff  wavcrc32_v0.22_macos_x86_64
