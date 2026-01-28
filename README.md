@@ -36,6 +36,11 @@
 * Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb - 32-х битный deb-пакет для дистрибутивов на базе Debian Linux
 * Linux/v0.22/i386/wavcrc32_v0.22_linux_i386 - 32-х битный бинарный файл для Linux
 
+* MacOS/v0.22/md5sum.txt - контрольные суммы
+* MacOS/v0.22/wavcrc32.1 - справочная страница (man-page)
+* MacOS/v0.22/wavcrc32-0.22.pkg - 64-х битный установочный пакет для MacOS
+* MacOS/v0.22/wavcrc32_v0.22_macos_x86_64 - 64-х битный бинарный файл для MacOS
+
 * Windows/v0.11-v0.22/md5sum.txt - контрольные суммы
 * Windows/v0.11-v0.22/t-357895.rar - консольная версия 0.22, GUI 0.11 для Windows
 
@@ -202,6 +207,11 @@ A program for checking CRC audio data
 * Linux/v0.22/i386/wavcrc32-0.22-2.i386.rpm - 32-bit RPM package for RedHat based Linux
 * Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb - 32-bit DEB package for Debian based Linux
 * Linux/v0.22/i386/wavcrc32_v0.22_linux_i386 - 32-bit binary for Linux
+
+* MacOS/v0.22/md5sum.txt - checksums
+* MacOS/v0.22/wavcrc32.1 - man-page
+* MacOS/v0.22/wavcrc32-0.22.pkg - 64-bit installation package for MacOS
+* MacOS/v0.22/wavcrc32_v0.22_macos_x86_64 - 64-bit binary for MacOS
 
 * Windows/v0.11-v0.22/md5sum.txt - checksums
 * Windows/v0.11-v0.22/t-357895.rar - console version 0.22, GUI 0.11 for Windows
