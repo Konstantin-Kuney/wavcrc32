@@ -133,12 +133,59 @@ $ sudo rm /usr/bin/wavcrc32
 $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
 ```
 
+## MacOS
+--------
+
+## Установка/Удаление установочного пакета wavcrc32 через GUI:
+--------------------------------------------------------------
+
+**1.Дважды щелкните по скачанному файлу wavcrc32-0.22.pkg**
+
+**2.Откроется окно установщика. Нажмите "Продолжить" (Continue) и следуйте инструкциям на экране.**
+
+**3.Введите пароль администратора, когда система запросит его для подтверждения установки.**
+
+## Установка/Удаление установочного пакета wavcrc32 в терминале:
+----------------------------------------------------------------
+```
+$ sudo installer -pkg /путь/к/пакету/wavcrc32-0.22.pkg -target /
+```
+
+## Установка/Удаление wavcrc32 вручную:
+---------------------------------------
+
+### 1.Сделайте бинарный файл wavcrc32 исполняемым:
+```
+$ chmod +x wavcrc32_v0.22_macos_x86_64
+```
+
+### 2.Скопируйте его в папку для хранения основных исполняемых файлов:
+```
+$ sudo cp -f wavcrc32_v0.22_macos_x86_64 /usr/bin/wavcrc32
+```
+
+### 3.Скопируйте мануал в папку для хранения справочных страниц (man-pages):
+```
+$ sudo cp -f wavcrc32.1 /usr/share/man/man1/
+```
+
+### Удаление wavcrc32 вручную:
+```
+$ sudo rm /usr/bin/wavcrc32
+$ sudo rm /usr/share/man/man1/wavcrc32.1
+```
+
 ## Использование wavcrc32:
 --------------------------
 
 Например, вы хотите проверить файл **filename.wav**, просто введите:
 ```
-wavcrc32 filename.wav
+$ wavcrc32 filename.wav
+```
+
+Подробнее в мануале:
+```
+$ man wavcrc32
 ```
 
 ## О распаковке FLAC APE WAVPACK:
@@ -305,12 +352,59 @@ $ sudo rm /usr/bin/wavcrc32
 $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
 ```
 
+## MacOS
+--------
+
+## Installing/Uninstalling the wavcrc32 installation package via the GUI:
+-------------------------------------------------------------------------
+
+**1. Double-click the downloaded wavcrc32-0.22.pkg file**
+
+**2. The installer window will open. Click "Continue" and follow the on-screen instructions.**
+
+**3. Enter the administrator password when prompted to confirm the installation.**
+
+## Installing/Uninstalling the wavcrc32 installation package in the terminal:
+-----------------------------------------------------------------------------
+```
+$ sudo installer -pkg /path/to/package/wavcrc32-0.22.pkg -target /
+```
+
+## Installing/Uninstalling wavcrc32 manually:
+---------------------------------------------
+
+### 1.Make the wavcrc32 binary executable:
+```
+$ chmod +x wavcrc32_v0.22_macos_x86_64
+```
+
+### 2.Copy it to the folder where you store the main executable files:
+```
+$ sudo cp -f wavcrc32_v0.22_macos_x86_64 /usr/bin/wavcrc32
+```
+
+### 3.Copy the manual to the man-pages folder:
+```
+$ sudo cp -f wavcrc32.1 /usr/share/man/man1/
+```
+
+### Manually removing wavcrc32:
+```
+$ sudo rm /usr/bin/wavcrc32
+$ sudo rm /usr/share/man/man1/wavcrc32.1
+```
+
 ## Using wavcrc32:
 ------------------
 
 Say you want to check the file **filename.wav**, just type:
 ```
-wavcrc32 filename.wav
+$ wavcrc32 filename.wav
+```
+
+More in the manual:
+```
+$ man wavcrc32
 ```
 
 ## About unpacking FLAC APE WAVPACK:
