@@ -29,24 +29,24 @@
 * Linux/v0.22/amd64/wavcrc32-0.22-2.x86_64.rpm - 64-х битный rpm-пакет для дистрибутивов на базе RedHat Linux
 * Linux/v0.22/amd64/wavcrc32_0.22-1_amd64.deb - 64-х битный deb-пакет для дистрибутивов на базе Debian Linux
 * Linux/v0.22/amd64/wavcrc32_v0.22_linux_amd64 - 64-х битный бинарный файл для Linux
-
+---
 * Linux/v0.22/i386/md5sum.txt - контрольные суммы
 * Linux/v0.22/i386/wavcrc32.1.gz - справочная страница (man-page)
 * Linux/v0.22/i386/wavcrc32-0.22-2.i386.rpm - 32-х битный rpm-пакет для дистрибутивов на базе RedHat Linux
 * Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb - 32-х битный deb-пакет для дистрибутивов на базе Debian Linux
 * Linux/v0.22/i386/wavcrc32_v0.22_linux_i386 - 32-х битный бинарный файл для Linux
-
+---
 * MacOS/v0.22/md5sum.txt - контрольные суммы
 * MacOS/v0.22/wavcrc32.1 - справочная страница (man-page)
 * MacOS/v0.22/wavcrc32-0.22.pkg - 64-х битный установочный пакет для MacOS
 * MacOS/v0.22/wavcrc32_v0.22_macos_x86_64 - 64-х битный бинарный файл для MacOS
-
+---
 * Windows/v0.11-v0.22/md5sum.txt - контрольные суммы
 * Windows/v0.11-v0.22/t-357895.rar - консольная версия 0.22, GUI 0.11 для Windows
-
+---
 * src/md5sum.txt - контрольные суммы
 * src/wavcrc32v0.22.cpp - исходный код wavcrc32 v0.22 на языке программирования C++ (C Plus Plus)
-
+---
 * ChangeLog - история изменений
 * README.md - данный файл описания
 
@@ -136,8 +136,8 @@ $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
 ## MacOS
 --------
 
-## Установка/Удаление установочного пакета wavcrc32 через GUI:
---------------------------------------------------------------
+## Установка установочного пакета wavcrc32 через GUI:
+-----------------------------------------------------
 
 **1.Дважды щелкните по скачанному файлу wavcrc32-0.22.pkg**
 
@@ -145,8 +145,8 @@ $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
 
 **3.Введите пароль администратора, когда система запросит его для подтверждения установки.**
 
-## Установка/Удаление установочного пакета wavcrc32 в терминале:
-----------------------------------------------------------------
+## Установка установочного пакета wavcrc32 в терминале:
+-------------------------------------------------------
 ```
 $ sudo installer -pkg /путь/к/пакету/wavcrc32-0.22.pkg -target /
 ```
@@ -248,24 +248,24 @@ A program for checking CRC audio data
 * Linux/v0.22/amd64/wavcrc32-0.22-2.x86_64.rpm - 64-bit RPM package for RedHat based Linux
 * Linux/v0.22/amd64/wavcrc32_0.22-1_amd64.deb - 64-bit DEB package for Debian based Linux
 * Linux/v0.22/amd64/wavcrc32_v0.22_linux_amd64 - 64-bit binary for Linux
-
+---
 * Linux/v0.22/i386/md5sum.txt - checksums
 * Linux/v0.22/i386/wavcrc32.1.gz - man-page
 * Linux/v0.22/i386/wavcrc32-0.22-2.i386.rpm - 32-bit RPM package for RedHat based Linux
 * Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb - 32-bit DEB package for Debian based Linux
 * Linux/v0.22/i386/wavcrc32_v0.22_linux_i386 - 32-bit binary for Linux
-
+---
 * MacOS/v0.22/md5sum.txt - checksums
 * MacOS/v0.22/wavcrc32.1 - man-page
 * MacOS/v0.22/wavcrc32-0.22.pkg - 64-bit installation package for MacOS
 * MacOS/v0.22/wavcrc32_v0.22_macos_x86_64 - 64-bit binary for MacOS
-
+---
 * Windows/v0.11-v0.22/md5sum.txt - checksums
 * Windows/v0.11-v0.22/t-357895.rar - console version 0.22, GUI 0.11 for Windows
-
+---
 * src/md5sum.txt - checksums
 * src/wavcrc32v0.22.cpp - wavcrc32 v0.22 source code in C++ (C Plus Plus)
-
+---
 * ChangeLog - change history
 * README.md - this description file
 
@@ -364,13 +364,13 @@ $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
 
 **3. Enter the administrator password when prompted to confirm the installation.**
 
-## Installing/Uninstalling the wavcrc32 installation package in the terminal:
+## Installing the wavcrc32 installation package in the terminal:
 -----------------------------------------------------------------------------
 ```
 $ sudo installer -pkg /path/to/package/wavcrc32-0.22.pkg -target /
 ```
 
-## Installing/Uninstalling wavcrc32 manually:
+## Installing wavcrc32 manually:
 ---------------------------------------------
 
 ### 1.Make the wavcrc32 binary executable:
