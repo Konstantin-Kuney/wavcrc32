@@ -1,0 +1,57 @@
+.\" 
+.TH "ALLWAVCRC32" "1" "" "" ""
+.SH "NAME"
+allwavcrc32 \- A script for the wavcrc32 program that checks the CRC code of audio data.
+.SH "SYNOPSIS"
+.B cd music_folder && allwavcrc32
+.SH "DESCRIPTION"
+This manual page documents briefly the
+.BR allwavcrc32
+and
+.BR wavcrc32
+commands.
+.PP 
+.B wavcrc32
+a program for checking CRC audio data obtained using EAC (Exact Audio 
+Copy) on Windows, Rubyripper on Linux, XLD (X Lossless Decoder) on macOS, etc.
+.PP
+Before checking, the FLAC APE WAVPACK should be unpacked to WAV. At least one 
+of the checksums obtained using wavcrc32 must match the checksums from the rip 
+LOG file.
+.PP
+More details: https://rutracker.net/forum/viewtopic.php?t=357895
+.PP
+Unfortunately, the wavcrc32 program can only calculate the checksum of a single
+file. To calculate the checksum of all files in the current folder, I wrote this
+simple script.
+.SH "EXAMPLES"
+. Use the wavcrc32 program:
+\fBExample 1: Let's say you want to check just one wav file \fIfilename.wav\fR. Use
+the wavcrc32 program:\fR
+.PP
+.B wavcrc32
+.I "filename.wav"
+.PP
+\fBExample 2: Let's say you want to check multiple wav files. Go to the music folder
+and use the allwavcrc32 script:\fR
+.PP
+.B cd music_folder && allwavcrc32
+.PP
+\fBOr run the allwavcrc32 script without options if you're already in the music folder.\fR
+.PP
+.B allwavcrc32
+.PP
+.SH "AUTHORS"
+dmvn ]DichlofoS[ Systems <dmvn@mccme.ru> - Author. Making C++ source code, compiling 
+console and GUI versions for Windows. Publishing and discussing on the forum.
+.PP
+BakLAN, siro. and DrStandBy - comments, suggestions and testing of Windows versions.
+.PP
+Konstantin Kuney <kmkuney@gmail.com> - Compiling the program and building packages 
+for Linux and MacOS, creating a manuals, creating the allwavcrc32 script, creating
+GitHub repository and description.
+.PP
+GitHub repository: https://github.com/Konstantin-Kuney/wavcrc32
+.SH "REPORTING BUGS"
+Report bugs to: https://rutracker.net/forum/viewtopic.php?t=1955422
+
