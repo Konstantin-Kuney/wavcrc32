@@ -1,3 +1,7 @@
+9dae3b74850a38c0c498ba5a5be1ca42  allwavcrc32_0.22-1_amd64.deb
+8dd6146aad478c98d4df9e527f2716ef  allwavcrc32-0.22-2.x86_64.rpm
+508b6fa0bd675d1dc9904451f7685543  allwavcrc32.1.gz
+0fc1bd4c18eda153ad657dfed61aed0b  allwavcrc32.sh
 15cc220f4be283f150006daf4ce5ac81  wavcrc32_0.22-1_amd64.deb
 c7d0acee121dc571bbc68f41e77ccdb5  wavcrc32-0.22-2.x86_64.rpm
 2b1c96d868c13dfba3f70ba56dfcf019  wavcrc32.1.gz

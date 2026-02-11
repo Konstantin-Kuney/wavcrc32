@@ -10,16 +10,23 @@
 
 О трудностях проверки контрольной суммы аудиоданных можно почитать [здесь](https://rutracker.org/forum/viewtopic.php?t=357895).
 
-## wavcrc32
------------
-Программа для проверки CRC контрольной суммы аудиоданных.
+## wavcrc32 & allwavcrc32
+-------------------------
+wavcrc32 - Программа для проверки CRC контрольной суммы аудиоданных.
+allwavcrc32 - Скрипт использующий программу wavcrc32 для проверки CRC аудиоданных любого количества wav-файлов в текущей папке.
 
-## О wavcrc32:
---------------
+## О wavcrc32 и allwavcrc32:
+----------------------------
 
 **wavcrc32** - программа для проверки CRC контрольной суммы аудиоданных, полученных с помощью EAC (Exact Audio Copy) в Windows, Rubyripper в Linux, XLD (X Lossless Decoder) в macOS и т.д.
 
 **Перед проверкой необходимо распаковать FLAC APE WAVPACK в формат WAV.** По крайней мере одна из контрольных сумм, полученных с помощью wavcrc32, должна совпадать с контрольными суммами из LOG-файла рипа.
+
+Использование **wavcrc32** для проверки CRC аудиоданных **потрекового рипа** очень неудобно, поскольку он может работать только с одним wav-файлом.
+
+Например, если вы введете команду **"wavcrc32 *.wav"** в вашей музыкальной папке, где находится более одного wav-файла, то программа завершится с ошибкой **"invalid cmdline arguments!"**.
+
+Чтобы рассчитать контрольную сумму всех файлов текущей папки, я написал простой скрипт - **allwavcrc32**.
 
 ## Содержимое:
 --------------
@@ -175,8 +182,8 @@ $ sudo rm /usr/bin/wavcrc32
 $ sudo rm /usr/share/man/man1/wavcrc32.1
 ```
 
-## Использование wavcrc32:
---------------------------
+## Использование wavcrc32 и allwavcrc32:
+----------------------------------------
 
 Например, вы хотите проверить файл **filename.wav**, просто введите:
 ```
@@ -186,6 +193,16 @@ $ wavcrc32 filename.wav
 Подробнее в мануале:
 ```
 $ man wavcrc32
+```
+
+Для проверки CRC аудиоданных любого количества wav-файлов, используйте скрипт allwavcrc32. Для этого перейдите в вашу музыкальную папку, и запустите его:
+```
+$ cd music_folder && allwavcrc32
+```
+
+Подробнее в мануале:
+```
+$ man allwavcrc32
 ```
 
 ## О распаковке FLAC APE WAVPACK:
@@ -229,16 +246,23 @@ This repository was created to help music lovers. Primarily, it's for users of t
 
 You can read about the difficulties of verifying audio data checksums [here](https://rutracker.org/forum/viewtopic.php?t=357895).
 
-## wavcrc32
------------
-A program for checking CRC audio data
+## wavcrc32 & allwavcrc32
+-------------------------
+wavcrc32 - A program for checking CRC audio data.
+allwavcrc32 - Script that uses the wavcrc32 program to check the CRC of audio data of any number of wav files in the current folder.
 
-## About wavcrc32:
-------------------
+## About wavcrc32 and allwavcrc32:
+----------------------------------
 
 **wavcrc32** a program for checking CRC audio data obtained using EAC (Exact Audio Copy) on Windows, Rubyripper on Linux, XLD (X Lossless Decoder) on macOS, etc.
 
 **Before checking, the FLAC APE WAVPACK should be unpacked to WAV.** At least one of the checksums obtained using wavcrc32 must match the checksums from the rip LOG file.
+
+Using **wavcrc32** to check the CRC of audio data in a **track-by-track rip** is very inconvenient because it can only work with a single wav file.
+
+For example, if you enter the command **"wavcrc32 *.wav"** in your music folder, which contains more than one wav file, the program will exit with the error **"invalid cmdline arguments!"**.
+
+To calculate the checksum of all files in the current folder, I wrote a simple script - **allwavcrc32**.
 
 ## Content:
 -----------
@@ -394,8 +418,8 @@ $ sudo rm /usr/bin/wavcrc32
 $ sudo rm /usr/share/man/man1/wavcrc32.1
 ```
 
-## Using wavcrc32:
-------------------
+## Using wavcrc32 and allwavcrc32:
+----------------------------------
 
 Say you want to check the file **filename.wav**, just type:
 ```
@@ -405,6 +429,16 @@ $ wavcrc32 filename.wav
 More in the manual:
 ```
 $ man wavcrc32
+```
+
+To check the CRC of audio data for any number of WAV files, use the allwavcrc32 script. To do this, navigate to your music folder and run it:
+```
+$ cd music_folder && allwavcrc32
+```
+
+More in the manual:
+```
+$ man allwavcrc32
 ```
 
 ## About unpacking FLAC APE WAVPACK:

@@ -1,7 +1,7 @@
 .\" 
 .TH "ALLWAVCRC32" "1" "" "" ""
 .SH "NAME"
-allwavcrc32 \- A script for the wavcrc32 program that checks the CRC code of audio data.
+allwavcrc32 \- Script that uses the wavcrc32 program to check the CRC of audio data of any number of wav files in the current folder.
 .SH "SYNOPSIS"
 .B cd music_folder && allwavcrc32
 .SH "DESCRIPTION"
@@ -21,19 +21,19 @@ LOG file.
 .PP
 More details: https://rutracker.net/forum/viewtopic.php?t=357895
 .PP
-Unfortunately, the wavcrc32 program can only calculate the checksum of a single
-file. To calculate the checksum of all files in the current folder, I wrote this
-simple script.
+Using wavcrc32 to check the CRC of audio data in a track-by-track rip is very 
+inconvenient because it can only work with a single wav file.
+.PP
+For example, if you enter the command 
+.B \(dqwavcrc32 *.wav\(dq
+in your music folder, which contains more than one wav file, the program will 
+exit with the error 
+.B \(dq*** invalid cmdline arguments!\(dq.
+.PP
+To calculate the checksum of all files in the current folder, I wrote this simple 
+script.
 .SH "EXAMPLES"
-. Use the wavcrc32 program:
-\fBExample 1: Let's say you want to check just one wav file \fIfilename.wav\fR. Use
-the wavcrc32 program:\fR
-.PP
-.B wavcrc32
-.I "filename.wav"
-.PP
-\fBExample 2: Let's say you want to check multiple wav files. Go to the music folder
-and use the allwavcrc32 script:\fR
+\fBExample: To check the CRC of audio data for any number of wav files, use a script. To do this, navigate to your music folder and run it:\fR
 .PP
 .B cd music_folder && allwavcrc32
 .PP
