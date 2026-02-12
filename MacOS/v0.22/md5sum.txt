@@ -1,3 +1,4 @@
+9574e84d75801a8d3b93528d89b0dadf  allwavcrc32-0.22.pkg
 20b6dc0fe2987d2ad007eb307f5c40d3  allwavcrc32.1
 0fc1bd4c18eda153ad657dfed61aed0b  allwavcrc32.sh
 79dcb253be537f15ca4b00d69d02ce17  wavcrc32-0.22.pkg

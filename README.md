@@ -13,6 +13,7 @@
 ## wavcrc32 & allwavcrc32
 -------------------------
 wavcrc32 - Программа для проверки CRC контрольной суммы аудиоданных.
+
 allwavcrc32 - Скрипт использующий программу wavcrc32 для проверки CRC аудиоданных любого количества wav-файлов в текущей папке.
 
 ## О wavcrc32 и allwavcrc32:
@@ -24,7 +25,7 @@ allwavcrc32 - Скрипт использующий программу wavcrc32 
 
 Использование **wavcrc32** для проверки CRC аудиоданных **потрекового рипа** очень неудобно, поскольку он может работать только с одним wav-файлом.
 
-Например, если вы введете команду **"wavcrc32 *.wav"** в вашей музыкальной папке, где находится более одного wav-файла, то программа завершится с ошибкой **"invalid cmdline arguments!"**.
+Например, если вы введете команду **"wavcrc32 \*.wav"** в вашей музыкальной папке, где находится более одного wav-файла, то программа завершится с ошибкой **"\*\*\* invalid cmdline arguments!"**.
 
 Чтобы рассчитать контрольную сумму всех файлов текущей папки, я написал простой скрипт - **allwavcrc32**.
 
@@ -56,6 +57,13 @@ allwavcrc32 - Скрипт использующий программу wavcrc32 
 ---
 * ChangeLog - история изменений
 * README.md - данный файл описания
+
+## Об установочных пакетах:
+---------------------------
+
+Установочные пакеты **allwavcrc32** для Linux и macOS содержат не только скрипт allwavcrc32, но и саму программу wavcrc32, поэтому **рекомендуется** установить их. 
+
+Установочные пакеты wavcrc32 содержат только саму программу wavcrc32.
 
 ## Windows
 ----------
@@ -249,6 +257,7 @@ You can read about the difficulties of verifying audio data checksums [here](htt
 ## wavcrc32 & allwavcrc32
 -------------------------
 wavcrc32 - A program for checking CRC audio data.
+
 allwavcrc32 - Script that uses the wavcrc32 program to check the CRC of audio data of any number of wav files in the current folder.
 
 ## About wavcrc32 and allwavcrc32:
@@ -260,7 +269,7 @@ allwavcrc32 - Script that uses the wavcrc32 program to check the CRC of audio da
 
 Using **wavcrc32** to check the CRC of audio data in a **track-by-track rip** is very inconvenient because it can only work with a single wav file.
 
-For example, if you enter the command **"wavcrc32 *.wav"** in your music folder, which contains more than one wav file, the program will exit with the error **"invalid cmdline arguments!"**.
+For example, if you enter the command **"wavcrc32 \*.wav"** in your music folder, which contains more than one wav file, the program will exit with the error **"\*\*\* invalid cmdline arguments!"**.
 
 To calculate the checksum of all files in the current folder, I wrote a simple script - **allwavcrc32**.
 
@@ -292,6 +301,13 @@ To calculate the checksum of all files in the current folder, I wrote a simple s
 ---
 * ChangeLog - change history
 * README.md - this description file
+
+## About installation packages:
+-------------------------------
+
+The **allwavcrc32** installation packages for Linux and macOS contain not only the allwavcrc32 script but also the wavcrc32 program itself, so it is **recommended** to install them.
+
+The wavcrc32 installation packages contain only the wavcrc32 program itself.
 
 ## Windows
 ----------
