@@ -32,22 +32,33 @@ allwavcrc32 - Скрипт использующий программу wavcrc32 
 ## Содержимое:
 --------------
 
+* Linux/v0.22/amd64/allwavcrc32.1.gz - справочная страница (man-page) для скрипта allwavcrc32
+* Linux/v0.22/amd64/allwavcrc32.sh - скрипт allwavcrc32
+* Linux/v0.22/amd64/allwavcrc32-0.22-2.x86_64.rpm - 64-х битный rpm-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе RedHat Linux
+* Linux/v0.22/amd64/allwavcrc32_0.22-1_amd64.deb - 64-х битный deb-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе Debian Linux
 * Linux/v0.22/amd64/md5sum.txt - контрольные суммы
-* Linux/v0.22/amd64/wavcrc32.1.gz - справочная страница (man-page)
-* Linux/v0.22/amd64/wavcrc32-0.22-2.x86_64.rpm - 64-х битный rpm-пакет для дистрибутивов на базе RedHat Linux
-* Linux/v0.22/amd64/wavcrc32_0.22-1_amd64.deb - 64-х битный deb-пакет для дистрибутивов на базе Debian Linux
-* Linux/v0.22/amd64/wavcrc32_v0.22_linux_amd64 - 64-х битный бинарный файл для Linux
+* Linux/v0.22/amd64/wavcrc32.1.gz - справочная страница (man-page) для wavcrc32
+* Linux/v0.22/amd64/wavcrc32-0.22-2.x86_64.rpm - 64-х битный rpm-пакет wavcrc32 для дистрибутивов на базе RedHat Linux
+* Linux/v0.22/amd64/wavcrc32_0.22-1_amd64.deb - 64-х битный deb-пакет wavcrc32 для дистрибутивов на базе Debian Linux
+* Linux/v0.22/amd64/wavcrc32_v0.22_linux_amd64 - 64-х битный бинарный файл wavcrc32 для Linux
 ---
+* Linux/v0.22/i386/allwavcrc32.1.gz - справочная страница (man-page) для скрипта allwavcrc32
+* Linux/v0.22/i386/allwavcrc32.sh - скрипт allwavcrc32
+* Linux/v0.22/i386/allwavcrc32-0.22-2.i386.rpm - 32-х битный rpm-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе RedHat Linux
+* Linux/v0.22/i386/allwavcrc32_0.22-1_i386.deb - 32-х битный deb-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе Debian Linux
 * Linux/v0.22/i386/md5sum.txt - контрольные суммы
-* Linux/v0.22/i386/wavcrc32.1.gz - справочная страница (man-page)
-* Linux/v0.22/i386/wavcrc32-0.22-2.i386.rpm - 32-х битный rpm-пакет для дистрибутивов на базе RedHat Linux
-* Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb - 32-х битный deb-пакет для дистрибутивов на базе Debian Linux
-* Linux/v0.22/i386/wavcrc32_v0.22_linux_i386 - 32-х битный бинарный файл для Linux
+* Linux/v0.22/i386/wavcrc32.1.gz - справочная страница (man-page) для wavcrc32
+* Linux/v0.22/i386/wavcrc32-0.22-2.i386.rpm - 32-х битный rpm-пакет wavcrc32 для дистрибутивов на базе RedHat Linux
+* Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb - 32-х битный deb-пакет wavcrc32 для дистрибутивов на базе Debian Linux
+* Linux/v0.22/i386/wavcrc32_v0.22_linux_i386 - 32-х битный бинарный файл wavcrc32 для Linux
 ---
+* MacOS/v0.22/allwavcrc32.1 - справочная страница (man-page) для скрипта allwavcrc32
+* MacOS/v0.22/allwavcrc32.sh - скрипт allwavcrc32
+* MacOS/v0.22/allwavcrc32-0.22.pkg - 64-х битный установочный пакет allwavcrc32 + wavcrc32 для MacOS
 * MacOS/v0.22/md5sum.txt - контрольные суммы
-* MacOS/v0.22/wavcrc32.1 - справочная страница (man-page)
-* MacOS/v0.22/wavcrc32-0.22.pkg - 64-х битный установочный пакет для MacOS
-* MacOS/v0.22/wavcrc32_v0.22_macos_x86_64 - 64-х битный бинарный файл для MacOS
+* MacOS/v0.22/wavcrc32.1 - справочная страница (man-page) для wavcrc32
+* MacOS/v0.22/wavcrc32-0.22.pkg - 64-х битный установочный пакет wavcrc32 для MacOS
+* MacOS/v0.22/wavcrc32_v0.22_macos_x86_64 - 64-х битный бинарный файл wavcrc32 для MacOS
 ---
 * Windows/v0.11-v0.22/md5sum.txt - контрольные суммы
 * Windows/v0.11-v0.22/t-357895.rar - консольная версия 0.22, GUI 0.11 для Windows
@@ -102,24 +113,24 @@ $ cd wavcrc32/Linux/v0.22/i386/
 
 Debian/Ubuntu:
 ```
-sudo dpkg -i wavcrc32_0.22-1_amd64.deb
+sudo dpkg -i allwavcrc32_0.22-1_amd64.deb
 ```
 
 RedHat/Fedora:
 ```
-sudo dnf install wavcrc32-0.22-2.x86_64.rpm
+sudo dnf install allwavcrc32-0.22-2.x86_64.rpm
 ```
 
 ### 4.Удаление wavcrc32 с помощью пакетного менеджера:
 
 Debian/Ubuntu:
 ```
-$ sudo apt-get purge wavcrc32
+$ sudo apt-get purge allwavcrc32
 ```
 
 RedHat/Fedora:
 ```
-$ sudo dnf remove wavcrc32
+$ sudo dnf remove allwavcrc32
 ```
 
 ## Установка/Удаление wavcrc32 вручную:
@@ -127,25 +138,30 @@ $ sudo dnf remove wavcrc32
 
 ### 1.Клонируйте GitHub репозиторий wavcrc32, и перейдите в папку, соответствующую архитектуре вашего дистрибутива Linux. (см.выше).
 
-### 2.Сделайте бинарный файл wavcrc32 исполняемым:
+### 2.Сделайте бинарный файл wavcrc32 и скрипт allwavcrc32 исполняемыми:
 ```
 $ chmod +x wavcrc32_v0.22_linux_amd64
+$ chmod +x allwavcrc32.sh
 ```
 
-### 3.Скопируйте его в папку для хранения основных исполняемых файлов:
+### 3.Скопируйте их в папку для хранения основных исполняемых файлов:
 ```
 $ sudo cp -f wavcrc32_v0.22_linux_amd64 /usr/bin/wavcrc32
+$ sudo cp -f allwavcrc32.sh /usr/bin/allwavcrc32
 ```
 
-### 4.Скопируйте мануал в папку для хранения справочных страниц (man-pages):
+### 4.Скопируйте мануалы в папку для хранения справочных страниц (man-pages):
 ```
 $ sudo cp -f wavcrc32.1.gz /usr/share/man/man1/
+$ sudo cp -f allwavcrc32.1.gz /usr/share/man/man1/
 ```
 
 ### 5.Удаление wavcrc32 вручную:
 ```
 $ sudo rm /usr/bin/wavcrc32
 $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
+$ sudo rm /usr/bin/allwavcrc32
+$ sudo rm /usr/share/man/man1/allwavcrc32.1.gz
 ```
 
 ## MacOS
@@ -154,7 +170,7 @@ $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
 ## Установка установочного пакета wavcrc32 через GUI:
 -----------------------------------------------------
 
-**1.Дважды щелкните по скачанному файлу wavcrc32-0.22.pkg**
+**1.Дважды щелкните по скачанному файлу allwavcrc32-0.22.pkg**
 
 **2.Откроется окно установщика. Нажмите "Продолжить" (Continue) и следуйте инструкциям на экране.**
 
@@ -163,54 +179,62 @@ $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
 ## Установка установочного пакета wavcrc32 в терминале:
 -------------------------------------------------------
 ```
-$ sudo installer -pkg /путь/к/пакету/wavcrc32-0.22.pkg -target /
+$ sudo installer -pkg /путь/к/пакету/allwavcrc32-0.22.pkg -target /
 ```
 
 ## Установка/Удаление wavcrc32 вручную:
 ---------------------------------------
 
-### 1.Сделайте бинарный файл wavcrc32 исполняемым:
+### 1.Сделайте бинарный файл wavcrc32 и скрипт allwavcrc32 исполняемыми:
 ```
 $ chmod +x wavcrc32_v0.22_macos_x86_64
+$ chmod +x allwavcrc32.sh
 ```
 
-### 2.Скопируйте его в папку для хранения основных исполняемых файлов:
+### 2.Скопируйте их в папку для хранения основных исполняемых файлов:
 ```
 $ sudo cp -f wavcrc32_v0.22_macos_x86_64 /usr/bin/wavcrc32
+$ sudo cp -f allwavcrc32.sh /usr/bin/allwavcrc32
+
 ```
 
-### 3.Скопируйте мануал в папку для хранения справочных страниц (man-pages):
+### 3.Скопируйте мануалы в папку для хранения справочных страниц (man-pages):
 ```
 $ sudo cp -f wavcrc32.1 /usr/share/man/man1/
+$ sudo cp -f allwavcrc32.1 /usr/share/man/man1/
 ```
 
 ### Удаление wavcrc32 вручную:
 ```
 $ sudo rm /usr/bin/wavcrc32
 $ sudo rm /usr/share/man/man1/wavcrc32.1
+$ sudo rm /usr/bin/allwavcrc32
+$ sudo rm /usr/share/man/man1/allwavcrc32.1
 ```
 
 ## Использование wavcrc32 и allwavcrc32:
 ----------------------------------------
 
-Например, вы хотите проверить файл **filename.wav**, просто введите:
+Например, вы хотите проверить все wav-файлы в вашей музыкальной папке. Перейдите в нее, и запустите скрипт:
+```
+$ cd /tmp/music
+$ allwavcrc32
+```
+
+Результат проверки можно вывести в файл:
+```
+$ allwavcrc32 > wavcrc32.txt
+```
+
+Например, вы хотите проверить только один файл **filename.wav**, просто введите:
 ```
 $ wavcrc32 filename.wav
 ```
 
-Подробнее в мануале:
-```
-$ man wavcrc32
-```
-
-Для проверки CRC аудиоданных любого количества wav-файлов, используйте скрипт allwavcrc32. Для этого перейдите в вашу музыкальную папку, и запустите его:
-```
-$ cd music_folder && allwavcrc32
-```
-
-Подробнее в мануале:
+Подробнее в мануалах:
 ```
 $ man allwavcrc32
+$ man wavcrc32
 ```
 
 ## О распаковке FLAC APE WAVPACK:
@@ -227,7 +251,7 @@ $ man allwavcrc32
 
 **BakLAN, siro. и DrStandBy** - замечания, предложения и тестирование Windows версий.
 
-**Konstantin Kuney** - Компиляция программы и сборка пакетов для Linux и MacOS, создание мануала, создание этого GitHub репозитория и описания.
+**Konstantin Kuney** - Компиляция программы и сборка пакетов для Linux и MacOS, создание мануалов, создание скрипта allwavcrc32, создание этого GitHub репозитория и описания.
 
 ## Дополнительная информация:
 -----------------------------
@@ -276,22 +300,33 @@ To calculate the checksum of all files in the current folder, I wrote a simple s
 ## Content:
 -----------
 
+* Linux/v0.22/amd64/allwavcrc32.1.gz - man page for the allwavcrc32 script
+* Linux/v0.22/amd64/allwavcrc32.sh - allwavcrc32 script
+* Linux/v0.22/amd64/allwavcrc32-0.22-2.x86_64.rpm - 64-bit RPM package allwavcrc32 + wavcrc32 for RedHat based Linux
+* Linux/v0.22/amd64/allwavcrc32_0.22-1_amd64.deb - 64-bit DEB package allwavcrc32 + wavcrc32 for Debian based Linux
 * Linux/v0.22/amd64/md5sum.txt - checksums
-* Linux/v0.22/amd64/wavcrc32.1.gz - man-page
-* Linux/v0.22/amd64/wavcrc32-0.22-2.x86_64.rpm - 64-bit RPM package for RedHat based Linux
-* Linux/v0.22/amd64/wavcrc32_0.22-1_amd64.deb - 64-bit DEB package for Debian based Linux
-* Linux/v0.22/amd64/wavcrc32_v0.22_linux_amd64 - 64-bit binary for Linux
+* Linux/v0.22/amd64/wavcrc32.1.gz - man-page for wavcrc32
+* Linux/v0.22/amd64/wavcrc32-0.22-2.x86_64.rpm - 64-bit RPM package wavcrc32 for RedHat based Linux
+* Linux/v0.22/amd64/wavcrc32_0.22-1_amd64.deb - 64-bit DEB package wavcrc32 for Debian based Linux
+* Linux/v0.22/amd64/wavcrc32_v0.22_linux_amd64 - 64-bit wavcrc32 binary for Linux
 ---
+* Linux/v0.22/i386/allwavcrc32.1.gz - man page for the allwavcrc32 script
+* Linux/v0.22/i386/allwavcrc32.sh - allwavcrc32 script
+* Linux/v0.22/i386/allwavcrc32-0.22-2.i386.rpm - 32-bit RPM package allwavcrc32 + wavcrc32 for RedHat based Linux
+* Linux/v0.22/i386/allwavcrc32_0.22-1_i386.deb - 32-bit DEB package wavcrc32 for Debian based Linux
 * Linux/v0.22/i386/md5sum.txt - checksums
-* Linux/v0.22/i386/wavcrc32.1.gz - man-page
+* Linux/v0.22/i386/wavcrc32.1.gz - man-page for wavcrc32
 * Linux/v0.22/i386/wavcrc32-0.22-2.i386.rpm - 32-bit RPM package for RedHat based Linux
 * Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb - 32-bit DEB package for Debian based Linux
-* Linux/v0.22/i386/wavcrc32_v0.22_linux_i386 - 32-bit binary for Linux
+* Linux/v0.22/i386/wavcrc32_v0.22_linux_i386 - 32-bit wavcrc32 binary for Linux
 ---
+* MacOS/v0.22/allwavcrc32.1 - man page for the allwavcrc32 script
+* MacOS/v0.22/allwavcrc32.sh - allwavcrc32 script
+* MacOS/v0.22/allwavcrc32-0.22.pkg - 64-bit allwavcrc32 + wavcrc32 installation package for MacOS
 * MacOS/v0.22/md5sum.txt - checksums
-* MacOS/v0.22/wavcrc32.1 - man-page
-* MacOS/v0.22/wavcrc32-0.22.pkg - 64-bit installation package for MacOS
-* MacOS/v0.22/wavcrc32_v0.22_macos_x86_64 - 64-bit binary for MacOS
+* MacOS/v0.22/wavcrc32.1 - man-page for wavcrc32
+* MacOS/v0.22/wavcrc32-0.22.pkg - 64-bit installation package wavcrc32 for MacOS
+* MacOS/v0.22/wavcrc32_v0.22_macos_x86_64 - 64-bit wavcrc32 binary for MacOS
 ---
 * Windows/v0.11-v0.22/md5sum.txt - checksums
 * Windows/v0.11-v0.22/t-357895.rar - console version 0.22, GUI 0.11 for Windows
@@ -346,24 +381,24 @@ $ cd wavcrc32/Linux/v0.22/i386/
 
 Debian/Ubuntu:
 ```
-sudo dpkg -i wavcrc32_0.22-1_amd64.deb
+sudo dpkg -i allwavcrc32_0.22-1_amd64.deb
 ```
 
 RedHat/Fedora:
 ```
-sudo dnf install wavcrc32-0.22-2.x86_64.rpm
+sudo dnf install allwavcrc32-0.22-2.x86_64.rpm
 ```
 
 ### 4.Uninstalling wavcrc32 using package manager:
 
 Debian/Ubuntu:
 ```
-$ sudo apt-get purge wavcrc32
+$ sudo apt-get purge allwavcrc32
 ```
 
 RedHat/Fedora:
 ```
-$ sudo dnf remove wavcrc32
+$ sudo dnf remove allwavcrc32
 ```
 
 ## Installing/Uninstalling wavcrc32 manually:
@@ -371,25 +406,30 @@ $ sudo dnf remove wavcrc32
 
 ### 1.Clone the wavcrc32 GitHub repository and navigate to the folder corresponding to the architecture of your Linux distribution. (see above).
 
-### 2.Make the wavcrc32 binary executable:
+### 2.Make the wavcrc32 binary and the allwavcrc32 script executable:
 ```
 $ chmod +x wavcrc32_v0.22_linux_amd64
+$ chmod +x allwavcrc32.sh
 ```
 
-### 3.Copy it to the folder where you store the main executable files:
+### 3.Copy them to the folder where you store the main executable files:
 ```
 $ sudo cp -f wavcrc32_v0.22_linux_amd64 /usr/bin/wavcrc32
+$ sudo cp -f allwavcrc32.sh /usr/bin/allwavcrc32
 ```
 
-### 4.Copy the manual to the man-pages folder:
+### 4.Copy the manuals to the man-pages folder:
 ```
 $ sudo cp -f wavcrc32.1.gz /usr/share/man/man1/
+$ sudo cp -f allwavcrc32.1.gz /usr/share/man/man1/
 ```
 
 ### 5.Manually removing wavcrc32:
 ```
 $ sudo rm /usr/bin/wavcrc32
 $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
+$ sudo rm /usr/bin/allwavcrc32
+$ sudo rm /usr/share/man/man1/allwavcrc32.1.gz
 ```
 
 ## MacOS
@@ -398,7 +438,7 @@ $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
 ## Installing/Uninstalling the wavcrc32 installation package via the GUI:
 -------------------------------------------------------------------------
 
-**1. Double-click the downloaded wavcrc32-0.22.pkg file**
+**1. Double-click the downloaded allwavcrc32-0.22.pkg file**
 
 **2. The installer window will open. Click "Continue" and follow the on-screen instructions.**
 
@@ -407,54 +447,61 @@ $ sudo rm /usr/share/man/man1/wavcrc32.1.gz
 ## Installing the wavcrc32 installation package in the terminal:
 -----------------------------------------------------------------------------
 ```
-$ sudo installer -pkg /path/to/package/wavcrc32-0.22.pkg -target /
+$ sudo installer -pkg /path/to/package/allwavcrc32-0.22.pkg -target /
 ```
 
 ## Installing wavcrc32 manually:
 ---------------------------------------------
 
-### 1.Make the wavcrc32 binary executable:
+### 1.Make the wavcrc32 binary and the allwavcrc32 script executable:
 ```
 $ chmod +x wavcrc32_v0.22_macos_x86_64
+$ chmod +x allwavcrc32.sh
 ```
 
-### 2.Copy it to the folder where you store the main executable files:
+### 2.Copy them to the folder where you store the main executable files:
 ```
 $ sudo cp -f wavcrc32_v0.22_macos_x86_64 /usr/bin/wavcrc32
+$ sudo cp -f allwavcrc32.sh /usr/bin/allwavcrc32
 ```
 
-### 3.Copy the manual to the man-pages folder:
+### 3.Copy the manuals to the man-pages folder:
 ```
 $ sudo cp -f wavcrc32.1 /usr/share/man/man1/
+$ sudo cp -f allwavcrc32.1 /usr/share/man/man1/
 ```
 
 ### Manually removing wavcrc32:
 ```
 $ sudo rm /usr/bin/wavcrc32
 $ sudo rm /usr/share/man/man1/wavcrc32.1
+$ sudo rm /usr/bin/allwavcrc32
+$ sudo rm /usr/share/man/man1/allwavcrc32.1
 ```
 
 ## Using wavcrc32 and allwavcrc32:
 ----------------------------------
 
-Say you want to check the file **filename.wav**, just type:
+For example, you want to check all the wav files in your music folder. Go to it and run the script:
+```
+$ cd /tmp/music
+$ allwavcrc32
+```
+
+You can output the check results to a file:
+```
+$ allwavcrc32 > wavcrc32.txt
+```
+
+For example, if you want to check only one file, **filename.wav**, simply enter:
 ```
 $ wavcrc32 filename.wav
 ```
 
-More in the manual:
-```
-$ man wavcrc32
-```
-
-To check the CRC of audio data for any number of WAV files, use the allwavcrc32 script. To do this, navigate to your music folder and run it:
-```
-$ cd music_folder && allwavcrc32
-```
-
-More in the manual:
+For more details, see the manuals:
 ```
 $ man allwavcrc32
+$ man wavcrc32
 ```
 
 ## About unpacking FLAC APE WAVPACK:
@@ -471,7 +518,7 @@ $ man allwavcrc32
 
 **BakLAN, siro. and DrStandBy** - comments, suggestions and testing of Windows versions.
 
-**Konstantin Kuney** - Compiling the program and building packages for Linux and MacOS, creating a manual, creating this GitHub repository and description.
+**Konstantin Kuney** - Compiling the program and building packages for Linux and MacOS, creating a manuals, creating the allwavcrc32 script, creating this GitHub repository and description.
 
 ## Additional information:
 --------------------------
