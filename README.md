@@ -244,6 +244,34 @@ $ man wavcrc32
 
 **Важно!** Не конвертировать, а **распаковывать** их.
 
+## Распаковка FLAC APE WAVPACK на примере Debian Linux:
+-------------------------------------------------------
+
+Установка кодеков для распаковки:
+```
+$ sudo apt-get install flac wavpack monkeys-audio
+```
+
+Для установки пакета **monkeys-audio**, в /etc/apt/sources.list добавьте мультимедиа репозиторий **www.deb-multimedia.org**!
+
+Распаковка:
+
+APE
+```
+$ mac filename.ape filename.wav -d
+```
+
+FLAC
+```
+$ flac -d filename.flac
+```
+
+WavPack
+```
+$ wvunpack filename.wv
+$ wvunpack filename.iso.wv
+```
+
 ## Авторы:
 ----------
 
@@ -504,12 +532,40 @@ $ man allwavcrc32
 $ man wavcrc32
 ```
 
-## About unpacking FLAC APE WAVPACK:
-------------------------------------
+## About decompressing FLAC APE WAVPACK:
+----------------------------------------
 
 > FLAC, APE (Monkey's Audio), and WavPack (.wv) are lossless audio compression formats that reduce the size of audio files without sacrificing quality. They provide 100% faithful restoration of the original and are ideal for archiving.
 
 **Important!** Don't convert them, but **decompress** them.
+
+## Decompressing FLAC APE WAVPACK on Debian Linux:
+--------------------------------------------------
+
+Installing codecs for unpacking:
+```
+$ sudo apt-get install flac wavpack monkeys-audio
+```
+
+To install the **monkeys-audio** package, add the **www.deb-multimedia.org** multimedia repository to /etc/apt/sources.list!
+
+Decompressing:
+
+APE
+```
+$ mac filename.ape filename.wav -d
+```
+
+FLAC
+```
+$ flac -d filename.flac
+```
+
+WavPack
+```
+$ wvunpack filename.wv
+$ wvunpack filename.iso.wv
+```
 
 ## Authors:
 -----------
