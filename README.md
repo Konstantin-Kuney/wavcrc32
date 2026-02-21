@@ -542,7 +542,7 @@ $ man wavcrc32
 ## Decompressing FLAC APE WAVPACK on Debian Linux:
 --------------------------------------------------
 
-Installing codecs for unpacking:
+Installing codecs for decompressing:
 ```
 $ sudo apt-get install flac wavpack monkeys-audio
 ```
