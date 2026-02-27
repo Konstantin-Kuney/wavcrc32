@@ -550,7 +550,7 @@ Installing codecs for decompressing:
 $ sudo apt-get install flac wavpack monkeys-audio
 ```
 
-To install the **monkeys-audio** package, add the **www.deb-multimedia.org** multimedia repository to /etc/apt/sources.list!
+To install the `monkeys-audio` package, add the `www.deb-multimedia.org` multimedia repository to /etc/apt/sources.list!
 
 Decompressing:
 
