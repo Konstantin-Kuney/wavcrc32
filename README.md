@@ -1,3 +1,6 @@
+<p align="right">
+<img width="170" height="20" alt="Снимок экрана от 2026-02-25 17-47-18_1f883d_GitHub" src="https://github.com/user-attachments/assets/a135b8b1-e47c-48ab-bd5d-58a887d2cf83" />
+</p>
 
 [Russian](#Russian) / [English](#English)
 
@@ -252,7 +255,7 @@ $ man wavcrc32
 $ sudo apt-get install flac wavpack monkeys-audio
 ```
 
-Для установки пакета **monkeys-audio**, в /etc/apt/sources.list добавьте мультимедиа репозиторий **www.deb-multimedia.org**!
+Для установки пакета `monkeys-audio`, в /etc/apt/sources.list добавьте мультимедиа репозиторий `www.deb-multimedia.org`!
 
 Распаковка:
 
