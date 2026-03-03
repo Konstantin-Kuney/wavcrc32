@@ -582,6 +582,18 @@ $ wvunpack filename.wv
 $ wvunpack filename.iso.wv
 ```
 
+## Decompressing FLAC APE WAVPACK on macOS:
+-------------------------------------------
+
+Installing codecs for decompressing:
+```
+$ brew install flac wavpack mac
+```
+
+[Homebrew](https://brew.sh/) must be installed to install codecs!
+
+Decompressing is similar to Linux. See above.
+
 ## Authors:
 -----------
 
