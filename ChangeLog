@@ -1,5 +1,6 @@
+03.03.2026 - Изменение README.md Распаковка FLAC APE WAVPACK на macOS.
 27.02.2026 - Изменение README.md картинка поддерживаемых ОС. Ссылка как код.
-21.02.2026 - Изменение README.md подробно о распаковке FLAC APE WAVPACK.
+21.02.2026 - Изменение README.md подробно о распаковке FLAC APE WAVPACK на примере Debian Linux.
 13.02.2026 - Изменение README.md.
 12.02.2026 - Сборка 64-битного пакета allwavcrc32 для MacOS. Изменение README.md.
 11.02.2026 - Изменение man-page для allwavcrc32. Изменение README.md. Сборка 32 и 64-битных deb rpm пакетов с новым скриптом и man-page для Linux.

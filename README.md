@@ -167,8 +167,8 @@ $ sudo rm /usr/bin/allwavcrc32
 $ sudo rm /usr/share/man/man1/allwavcrc32.1.gz
 ```
 
-## MacOS
---------
+## MacOS (Intel)
+----------------
 
 ## Установка установочного пакета wavcrc32 через GUI:
 -----------------------------------------------------
@@ -274,6 +274,18 @@ WavPack
 $ wvunpack filename.wv
 $ wvunpack filename.iso.wv
 ```
+
+## Распаковка FLAC APE WAVPACK на macOS:
+----------------------------------------
+
+Установка кодеков для распаковки:
+```
+$ brew install flac wavpack mac
+```
+
+Для установки кодеков должен быть установлен [Homebrew](https://brew.sh/)!
+
+Распаковка аналогична Linux. См.выше.
 
 ## Авторы:
 ----------
@@ -463,8 +475,8 @@ $ sudo rm /usr/bin/allwavcrc32
 $ sudo rm /usr/share/man/man1/allwavcrc32.1.gz
 ```
 
-## MacOS
---------
+## MacOS (Intel)
+----------------
 
 ## Installing/Uninstalling the wavcrc32 installation package via the GUI:
 -------------------------------------------------------------------------
