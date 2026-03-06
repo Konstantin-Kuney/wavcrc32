@@ -31,7 +31,7 @@ You can read about the difficulties of verifying audio data checksums [here](htt
 * [MacOS (Intel)](#MacOS-Intel)
   * [Installing the wavcrc32 installation package via the GUI](#Installing-the-wavcrc32-installation-package-via-the-GUI)
   * [Installing the wavcrc32 installation package in the terminal](#Installing-the-wavcrc32-installation-package-in-the-terminal)
-  * [Installing/Uninstalling wavcrc32 manually](#InstallingUninstalling-wavcrc32-manually)
+  * [Installing/Uninstalling wavcrc32 manually](#InstallingUninstalling-wavcrc32-manually-on-macOS)
 * [Using wavcrc32 and allwavcrc32](#Using-wavcrc32-and-allwavcrc32)
 * [About decompressing FLAC APE WAVPACK](#About-decompressing-FLAC-APE-WAVPACK)
   * [Decompressing FLAC APE WAVPACK on Debian Linux](#Decompressing-FLAC-APE-WAVPACK-on-Debian-Linux)
@@ -206,8 +206,8 @@ $ sudo rm /usr/share/man/man1/allwavcrc32.1.gz
 $ sudo installer -pkg /path/to/package/allwavcrc32-0.22.pkg -target /
 ```
 
-## Installing/Uninstalling wavcrc32 manually:
----------------------------------------------
+## Installing/Uninstalling wavcrc32 manually on macOS:
+------------------------------------------------------
 
 ### 1.Make the wavcrc32 binary and the allwavcrc32 script executable:
 ```
