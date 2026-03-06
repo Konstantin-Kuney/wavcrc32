@@ -26,7 +26,7 @@ You can read about the difficulties of verifying audio data checksums [here](htt
 * [About installation packages](#About-installation-packages)
 * [Windows](#Windows)
 * [Linux](#Linux)
-  * [Installing/Uninstalling wavcrc32 using a package manager](#InstallingUninstalling-wavcrc32-using-a-package manager)
+  * [Installing/Uninstalling wavcrc32 using a package manager](#InstallingUninstalling-wavcrc32-using-a-package-manager)
   * [Installing/Uninstalling wavcrc32 manually](#InstallingUninstalling-wavcrc32-manually)
 * [MacOS (Intel)](#MacOS-Intel)
   * [Installing the wavcrc32 installation package via the GUI](#Installing-the-wavcrc32-installation-package-via-the-GUI)
