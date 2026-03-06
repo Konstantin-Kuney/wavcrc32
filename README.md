@@ -4,7 +4,7 @@
 ## Russian
 ----------
 
-<p align="center"><img width=95% alt="Logo" src="./pictures/wavcrc32.svg"></p>
+<p align="center"><img width=80% alt="Logo" src="./pictures/wavcrc32.svg"></p>
 
 **wavcrc32** - Программа для проверки CRC контрольной суммы аудиоданных.
 
@@ -20,6 +20,7 @@
 
 ## Оглавление
 -------------
+
 * [О wavcrc32 и allwavcrc32](#О-wavcrc32-и-allwavcrc32)
 * [Содержимое](#Содержимое)
 * [Об установочных пакетах](#Об-установочных-пакетах)

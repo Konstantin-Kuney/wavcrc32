@@ -4,17 +4,41 @@
 ## English
 ----------
 
+<p align="center"><img width=80% alt="Logo" src="./pictures/wavcrc32.svg"></p>
+
+**wavcrc32** - A program for checking CRC audio data.
+
+**allwavcrc32** - Script that uses the wavcrc32 program to check the CRC of audio data of any number of wav files in the current folder.
+
+<p align="right"><img width="170" height="20" alt="OS" src="./pictures/os.png" /></p>
+
 When copying audio media, everything is important. Copy it correctly, unpack it correctly, verify it correctly, and burn it correctly.
 
 This repository was created to help music lovers. Primarily, it's for users of the most popular Linux distributions and MacOS, for which I've compiled installation packages and written a manual. The Windows version is compiled by the source code author.
 
 You can read about the difficulties of verifying audio data checksums [here](https://rutracker.org/forum/viewtopic.php?t=357895).
 
-## wavcrc32 & allwavcrc32
--------------------------
-wavcrc32 - A program for checking CRC audio data.
+## Table of contents
+--------------------
 
-allwavcrc32 - Script that uses the wavcrc32 program to check the CRC of audio data of any number of wav files in the current folder.
+* [About wavcrc32 and allwavcrc32](#About-wavcrc32-and-allwavcrc32)
+* [Content](#Content)
+* [About installation packages](#About-installation-packages)
+* [Windows](#Windows)
+* [Linux](#Linux)
+  * [Installing/Uninstalling wavcrc32 using a package manager](#InstallingUninstalling-wavcrc32-using-a-package manager)
+  * [Installing/Uninstalling wavcrc32 manually](#InstallingUninstalling-wavcrc32-manually)
+* [MacOS (Intel)](#MacOS-Intel)
+  * [Installing the wavcrc32 installation package via the GUI](#Installing-the-wavcrc32-installation-package-via-the-GUI)
+  * [Installing the wavcrc32 installation package in the terminal](#Installing-the-wavcrc32-installation-package-in-the-terminal)
+  * [Installing/Uninstalling wavcrc32 manually](#InstallingUninstalling-wavcrc32-manually)
+* [Using wavcrc32 and allwavcrc32](#Using-wavcrc32-and-allwavcrc32)
+* [About decompressing FLAC APE WAVPACK](#About-decompressing-FLAC-APE-WAVPACK)
+  * [Decompressing FLAC APE WAVPACK on Debian Linux](#Decompressing-FLAC-APE-WAVPACK-on-Debian-Linux)
+  * [Decompressing FLAC APE WAVPACK on macOS](#Decompressing-FLAC-APE-WAVPACK-on-macOS)
+* [Authors](#Authors)
+* [Additional information](#Additional-information)
+
 
 ## About wavcrc32 and allwavcrc32:
 ----------------------------------
@@ -167,7 +191,7 @@ $ sudo rm /usr/share/man/man1/allwavcrc32.1.gz
 ## MacOS (Intel)
 ----------------
 
-## Installing/Uninstalling the wavcrc32 installation package via the GUI:
+## Installing the wavcrc32 installation package via the GUI:
 -------------------------------------------------------------------------
 
 **1. Double-click the downloaded allwavcrc32-0.22.pkg file**
@@ -182,7 +206,7 @@ $ sudo rm /usr/share/man/man1/allwavcrc32.1.gz
 $ sudo installer -pkg /path/to/package/allwavcrc32-0.22.pkg -target /
 ```
 
-## Installing wavcrc32 manually:
+## Installing/Uninstalling wavcrc32 manually:
 ---------------------------------------------
 
 ### 1.Make the wavcrc32 binary and the allwavcrc32 script executable:
@@ -303,5 +327,5 @@ Decompressing is similar to Linux. See above.
 
 ---
 
-[Go up / Вверх](#Russian)
+[Go up / Вверх](#English)
 
