@@ -36,6 +36,7 @@ You can read about the difficulties of verifying audio data checksums [here](htt
 * [About decompressing FLAC APE WAVPACK](#About-decompressing-FLAC-APE-WAVPACK)
   * [Decompressing FLAC APE WAVPACK on Debian Linux](#Decompressing-FLAC-APE-WAVPACK-on-Debian-Linux)
   * [Decompressing FLAC APE WAVPACK on macOS](#Decompressing-FLAC-APE-WAVPACK-on-macOS)
+* [Screenshots](#Screenshots)
 * [Authors](#Authors)
 * [Additional information](#Additional-information)
 
@@ -306,6 +307,14 @@ $ brew install flac wavpack mac
 [Homebrew](https://brew.sh/) must be installed to install codecs!
 
 Decompressing is similar to Linux. See above.
+
+## Screenshots:
+-------------
+
+<div align="center">
+<img width=100% alt="wavcrc32" src="./pictures/scr_wavcrc32.png">
+<img width=100% alt="allwavcrc32" src="./pictures/scr_allwavcrc32.png">
+</div>
 
 ## Authors:
 -----------

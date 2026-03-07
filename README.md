@@ -36,6 +36,7 @@
 * [О распаковке FLAC APE WAVPACK](#О-распаковке-FLAC-APE-WAVPACK)
   * [Распаковка FLAC APE WAVPACK на примере Debian Linux](#Распаковка-FLAC-APE-WAVPACK-на-примере-Debian-Linux)
   * [Распаковка FLAC APE WAVPACK на macOS](#Распаковка-FLAC-APE-WAVPACK-на-macOS)
+* [Скриншоты](#Скриншоты)
 * [Авторы](#Авторы)
 * [Дополнительная информация](#Дополнительная-информация)
 
@@ -218,7 +219,6 @@ $ chmod +x allwavcrc32.sh
 ```
 $ sudo cp -f wavcrc32_v0.22_macos_x86_64 /usr/bin/wavcrc32
 $ sudo cp -f allwavcrc32.sh /usr/bin/allwavcrc32
-
 ```
 
 ### 3.Скопируйте мануалы в папку для хранения справочных страниц (man-pages):
@@ -306,6 +306,14 @@ $ brew install flac wavpack mac
 Для установки кодеков должен быть установлен [Homebrew](https://brew.sh/)!
 
 Распаковка аналогична Linux. См.выше.
+
+## Скриншоты:
+-------------
+
+<div align="center">
+<img width=100% alt="wavcrc32" src="./pictures/scr_wavcrc32.png">
+<img width=100% alt="allwavcrc32" src="./pictures/scr_allwavcrc32.png">
+</div>
 
 ## Авторы:
 ----------
