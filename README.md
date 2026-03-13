@@ -4,13 +4,13 @@
 ## Russian
 ----------
 
-<p align="center"><img width=80% alt="Logo" src="./pictures/wavcrc32.svg"></p>
+<p align="center"><img width=80% alt="Logo" src="./.pictures/wavcrc32.svg"></p>
 
 **wavcrc32** - Программа для проверки CRC контрольной суммы аудиоданных.
 
 **allwavcrc32** - Скрипт использующий программу wavcrc32 для проверки CRC аудиоданных любого количества wav-файлов в текущей папке.
 
-<p align="right"><img width="170" height="20" alt="OS" src="./pictures/os.png" /></p>
+<p align="right"><img width="170" height="20" alt="OS" src="./.pictures/os.png" /></p>
 
 В вопросе копирования аудионосителей важно всё. Правильно скопировать, правильно распаковать, правильно проверить, и правильно записать.
 
@@ -56,42 +56,42 @@
 ## Содержимое:
 --------------
 
-* Linux/v0.22/amd64/allwavcrc32.1.gz - справочная страница (man-page) для скрипта allwavcrc32
-* Linux/v0.22/amd64/allwavcrc32.sh - скрипт allwavcrc32
-* Linux/v0.22/amd64/allwavcrc32-0.22-2.x86_64.rpm - 64-х битный rpm-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе RedHat Linux
-* Linux/v0.22/amd64/allwavcrc32_0.22-1_amd64.deb - 64-х битный deb-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе Debian Linux
-* Linux/v0.22/amd64/md5sum.txt - контрольные суммы
-* Linux/v0.22/amd64/wavcrc32.1.gz - справочная страница (man-page) для wavcrc32
-* Linux/v0.22/amd64/wavcrc32-0.22-2.x86_64.rpm - 64-х битный rpm-пакет wavcrc32 для дистрибутивов на базе RedHat Linux
-* Linux/v0.22/amd64/wavcrc32_0.22-1_amd64.deb - 64-х битный deb-пакет wavcrc32 для дистрибутивов на базе Debian Linux
-* Linux/v0.22/amd64/wavcrc32_v0.22_linux_amd64 - 64-х битный бинарный файл wavcrc32 для Linux
+* `Linux/v0.22/amd64/allwavcrc32.1.gz` - справочная страница (man-page) для скрипта allwavcrc32
+* `Linux/v0.22/amd64/allwavcrc32.sh` - скрипт allwavcrc32
+* `Linux/v0.22/amd64/allwavcrc32-0.22-2.x86_64.rpm` - 64-х битный rpm-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе RedHat Linux
+* `Linux/v0.22/amd64/allwavcrc32_0.22-1_amd64.deb` - 64-х битный deb-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе Debian Linux
+* `Linux/v0.22/amd64/md5sum.txt` - контрольные суммы
+* `Linux/v0.22/amd64/wavcrc32.1.gz` - справочная страница (man-page) для wavcrc32
+* `Linux/v0.22/amd64/wavcrc32-0.22-2.x86_64.rpm` - 64-х битный rpm-пакет wavcrc32 для дистрибутивов на базе RedHat Linux
+* `Linux/v0.22/amd64/wavcrc32_0.22-1_amd64.deb` - 64-х битный deb-пакет wavcrc32 для дистрибутивов на базе Debian Linux
+* `Linux/v0.22/amd64/wavcrc32_v0.22_linux_amd64` - 64-х битный бинарный файл wavcrc32 для Linux
 ---
-* Linux/v0.22/i386/allwavcrc32.1.gz - справочная страница (man-page) для скрипта allwavcrc32
-* Linux/v0.22/i386/allwavcrc32.sh - скрипт allwavcrc32
-* Linux/v0.22/i386/allwavcrc32-0.22-2.i386.rpm - 32-х битный rpm-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе RedHat Linux
-* Linux/v0.22/i386/allwavcrc32_0.22-1_i386.deb - 32-х битный deb-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе Debian Linux
-* Linux/v0.22/i386/md5sum.txt - контрольные суммы
-* Linux/v0.22/i386/wavcrc32.1.gz - справочная страница (man-page) для wavcrc32
-* Linux/v0.22/i386/wavcrc32-0.22-2.i386.rpm - 32-х битный rpm-пакет wavcrc32 для дистрибутивов на базе RedHat Linux
-* Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb - 32-х битный deb-пакет wavcrc32 для дистрибутивов на базе Debian Linux
-* Linux/v0.22/i386/wavcrc32_v0.22_linux_i386 - 32-х битный бинарный файл wavcrc32 для Linux
+* `Linux/v0.22/i386/allwavcrc32.1.gz` - справочная страница (man-page) для скрипта allwavcrc32
+* `Linux/v0.22/i386/allwavcrc32.sh` - скрипт allwavcrc32
+* `Linux/v0.22/i386/allwavcrc32-0.22-2.i386.rpm` - 32-х битный rpm-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе RedHat Linux
+* `Linux/v0.22/i386/allwavcrc32_0.22-1_i386.deb` - 32-х битный deb-пакет allwavcrc32 + wavcrc32 для дистрибутивов на базе Debian Linux
+* `Linux/v0.22/i386/md5sum.txt` - контрольные суммы
+* `Linux/v0.22/i386/wavcrc32.1.gz` - справочная страница (man-page) для wavcrc32
+* `Linux/v0.22/i386/wavcrc32-0.22-2.i386.rpm` - 32-х битный rpm-пакет wavcrc32 для дистрибутивов на базе RedHat Linux
+* `Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb` - 32-х битный deb-пакет wavcrc32 для дистрибутивов на базе Debian Linux
+* `Linux/v0.22/i386/wavcrc32_v0.22_linux_i386` - 32-х битный бинарный файл wavcrc32 для Linux
 ---
-* MacOS/v0.22/allwavcrc32.1 - справочная страница (man-page) для скрипта allwavcrc32
-* MacOS/v0.22/allwavcrc32.sh - скрипт allwavcrc32
-* MacOS/v0.22/allwavcrc32-0.22.pkg - 64-х битный установочный пакет allwavcrc32 + wavcrc32 для MacOS
-* MacOS/v0.22/md5sum.txt - контрольные суммы
-* MacOS/v0.22/wavcrc32.1 - справочная страница (man-page) для wavcrc32
-* MacOS/v0.22/wavcrc32-0.22.pkg - 64-х битный установочный пакет wavcrc32 для MacOS
-* MacOS/v0.22/wavcrc32_v0.22_macos_x86_64 - 64-х битный бинарный файл wavcrc32 для MacOS
+* `MacOS/v0.22/allwavcrc32.1` - справочная страница (man-page) для скрипта allwavcrc32
+* `MacOS/v0.22/allwavcrc32.sh` - скрипт allwavcrc32
+* `MacOS/v0.22/allwavcrc32-0.22.pkg` - 64-х битный установочный пакет allwavcrc32 + wavcrc32 для MacOS
+* `MacOS/v0.22/md5sum.txt` - контрольные суммы
+* `MacOS/v0.22/wavcrc32.1` - справочная страница (man-page) для wavcrc32
+* `MacOS/v0.22/wavcrc32-0.22.pkg` - 64-х битный установочный пакет wavcrc32 для MacOS
+* `MacOS/v0.22/wavcrc32_v0.22_macos_x86_64` - 64-х битный бинарный файл wavcrc32 для MacOS
 ---
-* Windows/v0.11-v0.22/md5sum.txt - контрольные суммы
-* Windows/v0.11-v0.22/t-357895.rar - консольная версия 0.22, GUI 0.11 для Windows
+* `Windows/v0.11-v0.22/md5sum.txt` - контрольные суммы
+* `Windows/v0.11-v0.22/t-357895.rar` - консольная версия 0.22, GUI 0.11 для Windows
 ---
-* src/md5sum.txt - контрольные суммы
-* src/wavcrc32v0.22.cpp - исходный код wavcrc32 v0.22 на языке программирования C++ (C Plus Plus)
+* `src/md5sum.txt` - контрольные суммы
+* `src/wavcrc32v0.22.cpp` - исходный код wavcrc32 v0.22 на языке программирования C++ (C Plus Plus)
 ---
-* ChangeLog - история изменений
-* README.md - данный файл описания
+* `ChangeLog` - история изменений
+* `README.md` - данный файл описания
 
 ## Об установочных пакетах:
 ---------------------------
@@ -303,7 +303,7 @@ $ wvunpack filename.iso.wv
 $ brew install flac wavpack mac
 ```
 
-Для установки кодеков должен быть установлен [Homebrew](https://brew.sh/)!
+Для установки кодеков должен быть установлен [Homebrew](https://brew.sh/ru/)!
 
 Распаковка аналогична Linux. См.выше.
 
@@ -311,8 +311,8 @@ $ brew install flac wavpack mac
 -------------
 
 <div align="center">
-<img width=100% alt="wavcrc32" src="./pictures/scr_wavcrc32.png">
-<img width=100% alt="allwavcrc32" src="./pictures/scr_allwavcrc32.png">
+<img width=100% alt="wavcrc32" src="./.pictures/scr_wavcrc32.png">
+<img width=100% alt="allwavcrc32" src="./.pictures/scr_allwavcrc32.png">
 </div>
 
 ## Авторы:

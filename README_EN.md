@@ -4,13 +4,13 @@
 ## English
 ----------
 
-<p align="center"><img width=80% alt="Logo" src="./pictures/wavcrc32.svg"></p>
+<p align="center"><img width=80% alt="Logo" src="./.pictures/wavcrc32.svg"></p>
 
 **wavcrc32** - A program for checking CRC audio data.
 
 **allwavcrc32** - Script that uses the wavcrc32 program to check the CRC of audio data of any number of wav files in the current folder.
 
-<p align="right"><img width="170" height="20" alt="OS" src="./pictures/os.png" /></p>
+<p align="right"><img width="170" height="20" alt="OS" src="./.pictures/os.png" /></p>
 
 When copying audio media, everything is important. Copy it correctly, unpack it correctly, verify it correctly, and burn it correctly.
 
@@ -57,42 +57,42 @@ To calculate the checksum of all files in the current folder, I wrote a simple s
 ## Content:
 -----------
 
-* Linux/v0.22/amd64/allwavcrc32.1.gz - man page for the allwavcrc32 script
-* Linux/v0.22/amd64/allwavcrc32.sh - allwavcrc32 script
-* Linux/v0.22/amd64/allwavcrc32-0.22-2.x86_64.rpm - 64-bit RPM package allwavcrc32 + wavcrc32 for RedHat based Linux
-* Linux/v0.22/amd64/allwavcrc32_0.22-1_amd64.deb - 64-bit DEB package allwavcrc32 + wavcrc32 for Debian based Linux
-* Linux/v0.22/amd64/md5sum.txt - checksums
-* Linux/v0.22/amd64/wavcrc32.1.gz - man-page for wavcrc32
-* Linux/v0.22/amd64/wavcrc32-0.22-2.x86_64.rpm - 64-bit RPM package wavcrc32 for RedHat based Linux
-* Linux/v0.22/amd64/wavcrc32_0.22-1_amd64.deb - 64-bit DEB package wavcrc32 for Debian based Linux
-* Linux/v0.22/amd64/wavcrc32_v0.22_linux_amd64 - 64-bit wavcrc32 binary for Linux
+* `Linux/v0.22/amd64/allwavcrc32.1.gz` - man page for the allwavcrc32 script
+* `Linux/v0.22/amd64/allwavcrc32.sh` - allwavcrc32 script
+* `Linux/v0.22/amd64/allwavcrc32-0.22-2.x86_64.rpm` - 64-bit RPM package allwavcrc32 + wavcrc32 for RedHat based Linux
+* `Linux/v0.22/amd64/allwavcrc32_0.22-1_amd64.deb` - 64-bit DEB package allwavcrc32 + wavcrc32 for Debian based Linux
+* `Linux/v0.22/amd64/md5sum.txt` - checksums
+* `Linux/v0.22/amd64/wavcrc32.1.gz` - man-page for wavcrc32
+* `Linux/v0.22/amd64/wavcrc32-0.22-2.x86_64.rpm` - 64-bit RPM package wavcrc32 for RedHat based Linux
+* `Linux/v0.22/amd64/wavcrc32_0.22-1_amd64.deb` - 64-bit DEB package wavcrc32 for Debian based Linux
+* `Linux/v0.22/amd64/wavcrc32_v0.22_linux_amd64` - 64-bit wavcrc32 binary for Linux
 ---
-* Linux/v0.22/i386/allwavcrc32.1.gz - man page for the allwavcrc32 script
-* Linux/v0.22/i386/allwavcrc32.sh - allwavcrc32 script
-* Linux/v0.22/i386/allwavcrc32-0.22-2.i386.rpm - 32-bit RPM package allwavcrc32 + wavcrc32 for RedHat based Linux
-* Linux/v0.22/i386/allwavcrc32_0.22-1_i386.deb - 32-bit DEB package wavcrc32 for Debian based Linux
-* Linux/v0.22/i386/md5sum.txt - checksums
-* Linux/v0.22/i386/wavcrc32.1.gz - man-page for wavcrc32
-* Linux/v0.22/i386/wavcrc32-0.22-2.i386.rpm - 32-bit RPM package for RedHat based Linux
-* Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb - 32-bit DEB package for Debian based Linux
-* Linux/v0.22/i386/wavcrc32_v0.22_linux_i386 - 32-bit wavcrc32 binary for Linux
+* `Linux/v0.22/i386/allwavcrc32.1.gz` - man page for the allwavcrc32 script
+* `Linux/v0.22/i386/allwavcrc32.sh` - allwavcrc32 script
+* `Linux/v0.22/i386/allwavcrc32-0.22-2.i386.rpm` - 32-bit RPM package allwavcrc32 + wavcrc32 for RedHat based Linux
+* `Linux/v0.22/i386/allwavcrc32_0.22-1_i386.deb` - 32-bit DEB package wavcrc32 for Debian based Linux
+* `Linux/v0.22/i386/md5sum.txt` - checksums
+* `Linux/v0.22/i386/wavcrc32.1.gz` - man-page for wavcrc32
+* `Linux/v0.22/i386/wavcrc32-0.22-2.i386.rpm` - 32-bit RPM package for RedHat based Linux
+* `Linux/v0.22/i386/wavcrc32_0.22-1_i386.deb` - 32-bit DEB package for Debian based Linux
+* `Linux/v0.22/i386/wavcrc32_v0.22_linux_i386` - 32-bit wavcrc32 binary for Linux
 ---
-* MacOS/v0.22/allwavcrc32.1 - man page for the allwavcrc32 script
-* MacOS/v0.22/allwavcrc32.sh - allwavcrc32 script
-* MacOS/v0.22/allwavcrc32-0.22.pkg - 64-bit allwavcrc32 + wavcrc32 installation package for MacOS
-* MacOS/v0.22/md5sum.txt - checksums
-* MacOS/v0.22/wavcrc32.1 - man-page for wavcrc32
-* MacOS/v0.22/wavcrc32-0.22.pkg - 64-bit installation package wavcrc32 for MacOS
-* MacOS/v0.22/wavcrc32_v0.22_macos_x86_64 - 64-bit wavcrc32 binary for MacOS
+* `MacOS/v0.22/allwavcrc32.1` - man page for the allwavcrc32 script
+* `MacOS/v0.22/allwavcrc32.sh` - allwavcrc32 script
+* `MacOS/v0.22/allwavcrc32-0.22.pkg` - 64-bit allwavcrc32 + wavcrc32 installation package for MacOS
+* `MacOS/v0.22/md5sum.txt` - checksums
+* `MacOS/v0.22/wavcrc32.1` - man-page for wavcrc32
+* `MacOS/v0.22/wavcrc32-0.22.pkg` - 64-bit installation package wavcrc32 for MacOS
+* `MacOS/v0.22/wavcrc32_v0.22_macos_x86_64` - 64-bit wavcrc32 binary for MacOS
 ---
-* Windows/v0.11-v0.22/md5sum.txt - checksums
-* Windows/v0.11-v0.22/t-357895.rar - console version 0.22, GUI 0.11 for Windows
+* `Windows/v0.11-v0.22/md5sum.txt` - checksums
+* `Windows/v0.11-v0.22/t-357895.rar` - console version 0.22, GUI 0.11 for Windows
 ---
-* src/md5sum.txt - checksums
-* src/wavcrc32v0.22.cpp - wavcrc32 v0.22 source code in C++ (C Plus Plus)
+* `src/md5sum.txt` - checksums
+* `src/wavcrc32v0.22.cpp` - wavcrc32 v0.22 source code in C++ (C Plus Plus)
 ---
-* ChangeLog - change history
-* README.md - this description file
+* `ChangeLog` - change history
+* `README.md` - this description file
 
 ## About installation packages:
 -------------------------------
@@ -312,8 +312,8 @@ Decompressing is similar to Linux. See above.
 -------------
 
 <div align="center">
-<img width=100% alt="wavcrc32" src="./pictures/scr_wavcrc32.png">
-<img width=100% alt="allwavcrc32" src="./pictures/scr_allwavcrc32.png">
+<img width=100% alt="wavcrc32" src="./.pictures/scr_wavcrc32.png">
+<img width=100% alt="allwavcrc32" src="./.pictures/scr_allwavcrc32.png">
 </div>
 
 ## Authors:
