@@ -4,13 +4,13 @@
 ## English
 ----------
 
-<p align="center"><img width=80% alt="Logo" src="./.pictures/wavcrc32.svg"></p>
+<p align="center"><img width=80% alt="Logo" src="./.github/wavcrc32.svg"></p>
 
 **wavcrc32** - A program for checking CRC audio data.
 
 **allwavcrc32** - Script that uses the wavcrc32 program to check the CRC of audio data of any number of wav files in the current folder.
 
-<p align="right"><img width="170" height="20" alt="OS" src="./.pictures/os.png" /></p>
+<p align="right"><img width="170" height="20" alt="OS" src="./.github/os.png" /></p>
 
 When copying audio media, everything is important. Copy it correctly, unpack it correctly, verify it correctly, and burn it correctly.
 
@@ -312,8 +312,8 @@ Decompressing is similar to Linux. See above.
 -------------
 
 <div align="center">
-<img width=100% alt="wavcrc32" src="./.pictures/scr_wavcrc32.png">
-<img width=100% alt="allwavcrc32" src="./.pictures/scr_allwavcrc32.png">
+<img width=100% alt="wavcrc32" src="./.github/scr_wavcrc32.png">
+<img width=100% alt="allwavcrc32" src="./.github/scr_allwavcrc32.png">
 </div>
 
 ## Authors:
