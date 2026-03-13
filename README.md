@@ -4,13 +4,13 @@
 ## Russian
 ----------
 
-<p align="center"><img width=80% alt="Logo" src="./.github/wavcrc32.svg"></p>
+<p align="center"><img width=80% alt="Logo" src="./.pictures/wavcrc32.svg"></p>
 
 **wavcrc32** - Программа для проверки CRC контрольной суммы аудиоданных.
 
 **allwavcrc32** - Скрипт использующий программу wavcrc32 для проверки CRC аудиоданных любого количества wav-файлов в текущей папке.
 
-<p align="right"><img width="170" height="20" alt="OS" src="./.github/os.png" /></p>
+<p align="right"><img width="170" height="20" alt="OS" src="./.pictures/os.png" /></p>
 
 В вопросе копирования аудионосителей важно всё. Правильно скопировать, правильно распаковать, правильно проверить, и правильно записать.
 
@@ -311,8 +311,8 @@ $ brew install flac wavpack mac
 -------------
 
 <div align="center">
-<img width=100% alt="wavcrc32" src="./.github/scr_wavcrc32.png">
-<img width=100% alt="allwavcrc32" src="./.github/scr_allwavcrc32.png">
+<img width=100% alt="wavcrc32" src="./.pictures/scr_wavcrc32.png">
+<img width=100% alt="allwavcrc32" src="./.pictures/scr_allwavcrc32.png">
 </div>
 
 ## Авторы:
