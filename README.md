@@ -331,7 +331,7 @@ $ brew install flac wavpack mac
 
 [Страница форума для обсуждения проекта](https://rutracker.net/forum/viewtopic.php?t=1955422)
 
-[Данный GitHub репозитроий](https://github.com/Konstantin-Kuney/wavcrc32)
+[Данный GitHub репозиторий](https://github.com/Konstantin-Kuney/wavcrc32)
 
 ---
 
